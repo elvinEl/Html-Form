@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="aos.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <link
       rel="stylesheet"
@@ -16,137 +15,288 @@
     />
     <title>Digital Silk Road</title>
   </head>
-  <body class="bg-[#fff9f2] h-full w-full" >
-    <div class="max-w-[90%] mt-[3rem] mx-auto">
-      <div class="w-[150px]">
-        <img class="w-full h-full" src="assets/img/dsr.jpg" alt="" />
-      </div>
-    </div>
-    <div class="absolute left-0 top-0">
-      <img src="assets/img/top-left.png" alt="" />
-    </div>
-    <div class="absolute right-0 top-0">
-      <img src="assets/img/top-right.png" alt="" />
-    </div>
-
-    <div class="max-w-[75%] mx-auto grid grid-cols-2 gap-8 mt-[3rem] max-md:flex max-md:flex-col-reverse max-md:relative max-md:max-w-[90%]">
-      <div class="col-span-1 mt-[2rem]">
-        <p class="font-bold text-[65px] leading-snug max-md:text-[32px]">
-          Let's Scale your brand, Together
-        </p>
-        <p class="text-[27px] font-bold mt-[0.7rem] max-md:text-[18px]">
-          Get a start@userthemes.com
-        </p>
-        <div>
-          <img class="w-full h-full" src="assets/img/left.gif" alt="" />
+  <body class="bg-[#fff9f2] h-full w-full">
+    <div>
+      <div class="max-w-[90%] mt-8 mx-auto">
+        <div class="w-[150px] ">
+          <img class="w-full h-full" src="assets/img/dsr.jpg" alt="" />
         </div>
       </div>
-      <div class="col-span-1">
-        <form class="ml-[5rem] max-md:ml-0">
-          <div class="flex flex-col">
-            <label for="" class="gap-8"
-              ><i class="fa-solid fa-user-tie pr-[0.5rem]"></i>
-              <span class="font-bold">Name</span>
-            </label>
-            <input required
-              placeholder="Type Name"
-              class="outline-0 border-b-4 bg-[#fff9f2] border-[#fae4ca] pt-4 focus:placeholder:text-gray-300"
-              type="text"
-            />
-          </div>
-          <div  class="flex flex-col mt-8">
-            <label for="" class="gap-8"
-              ><i class="fa-solid fa-paper-plane pr-[0.5rem]"></i>
-              <span class="font-bold">Company</span>
-            </label>
-            <input required
-              placeholder="Type Company Name"
-              class="outline-0 border-b-4 bg-[#fff9f2] border-[#fae4ca] pt-4 focus:placeholder:text-gray-300"
-              type="text"
-            />
-          </div>
-          <div class="flex flex-col mt-8">
-            <label for="" class="gap-8"
-              ><i class="fa-solid fa-phone pr-[0.5rem]"></i>
-              <span class="font-bold">Phone</span>
-            </label>
-            <input required
-              placeholder="Type Phone Name"
-              class="outline-0 border-b-4 bg-[#fff9f2] border-[#fae4ca] pt-4  focus:placeholder:text-gray-300"
-              type="text"
-            />
-          </div>
-          <div class="flex flex-col mt-8">
-            <label for="" class="gap-8"
-              ><i class="fa-solid fa-envelope pr-[0.5rem]"></i>
-              <span class="font-bold">Email Address</span>
-            </label>
-            <input required
-              placeholder="Type Email Name"
-              class="outline-0 border-b-4 bg-[#fff9f2] border-[#fae4ca] pt-4 focus:placeholder:text-gray-300"
-              type="email"
-            />
-          </div>
-          <div class="flex flex-col mt-8">
-            <label for="" class="gap-8"
-              ><i class="fa-solid fa-message pr-[0.5rem]"></i>
-              <span class="font-bold">How can we help </span>
-            </label>
-            <input required
-              placeholder="A brief Description here"
-              class="outline-0 border-b-4 bg-[#fff9f2] border-[#fae4ca] pt-4 focus:placeholder:text-gray-300"
-              type="email"
-            />
-          </div>
-
-          <div class="mt-8">
-            <label for="" class="gap-8"
-              ><i class="fa-solid fa-user-tie pr-[0.5rem]"></i>
-              <span class="font-bold">Services</span>
-            </label>
-            <div class="flex justify-between max-md:flex-col">
-              <div>
-                <p class="mt-4">
-                  <input type="checkbox" id="test1" />
-                  <label for="test1" class="font-bold"> Paid Media</label>
-                </p>
-                <p class="mt-4">
-                  <input type="checkbox" id="test2" />
-                  <label for="test2" class="font-bold">
-                    Digital experience</label
-                  >
-                </p>
-                <p class="mt-4">
-                  <input type="checkbox" id="test3" />
-                  <label for="test3" class="font-bold"> Email</label>
-                </p>
-              </div>
-              <div>
-                <p class="mt-4">
-                  <input type="checkbox" id="test4" />
-                  <label for="test4" class="font-bold"> Content Creation</label>
-                </p>
-                <p class="mt-4">
-                  <input type="checkbox" id="test5" />
-                  <label for="test5" class="font-bold">
-                    Strategy & Consulting</label
-                  >
-                </p>
-                <p class="mt-4">
-                  <input type="checkbox" id="test6" />
-                  <label for="test6" class="font-bold"> Other</label>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="flex justify-center mt-8">
-            <button class="button-86" role="button">Send Message</button>
-          </div>
-        </form>
-
-
+      <div class="absolute left-0 top-0 max-md:max-w-[250px] max-lg:max-w-[300px]">
+        <img src="assets/img/top-left.png" alt="" />
+      </div>
+      <div class="absolute right-0 top-0 max-md:max-w-[250px] max-lg:max-w-[300px]">
+        <img src="assets/img/top-right.png" alt="" />
       </div>
     </div>
-    <script src="mmain.js"></script>
+
+    <nav class="flex justify-center items-center max-md:relative max-md:z-50 max-w-[90%] mx-auto relative z-50">
+      <ul class="flex gap-4">
+        <li class="cursor-pointer bg-[#fae4ca] hover:bg-[#fae4ca]  px-3 rounded py-1 border-[1px] max-md:px-0" id="select-tab">Sürücü kimi daxil ol</li>
+        <li class="cursor-pointer hover:bg-[#fae4ca] px-3 py-1 rounded border-[1px] max-md:px-0" id="select-tab">Sərnişin kimi daxil ol</li>
+      </ul>
+    </nav>
+
+    <section id="select-content">
+      <div
+        class="max-w-[75%] mx-auto grid grid-cols-2 mb-8 gap-8 mt-4 max-md:flex max-md:flex-col-reverse max-md:relative max-md:max-w-[90%] max-lg:max-w-[90%] max-xl:max-w-[95%] max-2xl:max-w-[95%]"
+      >
+        <div class="col-span-1 mt-[2rem]">
+          <p class="font-bold text-[32px] leading-snug max-md:text-[24px]">
+            Sürücülürlə və Sərnişinlər - Erkən qeydiyyatdan keçin, bonus və endirimlərdən yararlanın.
+          </p>
+          <p class="text-[27px] font-bold mt-[0.7rem] max-md:text-[18px]">
+            Etibarlı, sərfəli və rahat
+          </p>
+          <div>
+            <img class="w-full h-full" src="assets/img/left.gif" alt="" />
+          </div>
+        </div>
+        <div class="col-span-1">
+          <form >
+            <div class="flex flex-col z-50 relative">
+              <label for="" class="gap-8"
+                ><i class="fa-solid fa-user-tie pr-[0.5rem]"></i>
+                <span class="font-bold">Ad , Soyad</span>
+              </label>
+              <input
+                required
+                placeholder="Ad , Soyad"
+                class="outline-0 border-b-4 bg-[#fff9f2] border-[#fae4ca] pt-4 focus:placeholder:text-gray-300"
+                type="text"
+              />
+            </div>
+          
+            <div class="flex flex-col mt-8">
+              <label for="" class="gap-8"
+                ><i class="fa-solid fa-phone pr-[0.5rem]"></i>
+                <span class="font-bold">Nömrə</span>
+              </label>
+              <input
+                required
+                placeholder="Nömrə"
+                class="outline-0 border-b-4 bg-[#fff9f2] border-[#fae4ca] pt-4 focus:placeholder:text-gray-300"
+                type="text"
+              />
+            </div>
+            <div class="flex flex-col mt-8">
+              <label for="" class="gap-8"
+                ><i class="fa-solid fa-envelope pr-[0.5rem]"></i>
+                <span class="font-bold">E-mail</span>
+              </label>
+              <input
+                required
+                placeholder="E-mail"
+                class="outline-0 border-b-4 bg-[#fff9f2] border-[#fae4ca] pt-4 focus:placeholder:text-gray-300"
+                type="email"
+              />
+            </div>
+            <div class="flex flex-col mt-8">
+              <label for="" class="gap-8"
+                ><i class="fa-solid fa-paper-plane pr-[0.5rem]"></i>
+                <span class="font-bold">İstəklərim</span>
+              </label>
+              <input
+                required
+                placeholder="İstəklərim"
+                class="outline-0 border-b-4 bg-[#fff9f2] border-[#fae4ca] pt-4 focus:placeholder:text-gray-300"
+                type="text"
+              />
+            </div>
+
+            <div class="mt-8">
+              <label for="" class="gap-8"
+                ><i class="fa-solid fa-user-tie pr-[0.5rem]"></i>
+                <span class="font-bold">Xidmətlər</span>
+              </label>
+              <div class="flex justify-between max-md:flex-col">
+                <div>
+                  <p class="mt-4 line-clamp-1">
+                    <input type="checkbox" id="test1" />
+                    <label for="test1" class="font-bold">Kart söhbəti olmasın</label>
+                  </p>
+                  <p class="mt-4 line-clamp-1">
+                    <input type="checkbox" id="test2" />
+                    <label for="test2" class="font-bold">
+                      Təmiz taksi</label
+                    >
+                  </p>
+                  <p class="mt-4 line-clamp-1">
+                    <input type="checkbox" id="test3" />
+                    <label for="test3" class="font-bold">Problemsiz sürücü</label>
+                  </p>
+                  <p class="mt-4 line-clamp-1">
+                    <input type="checkbox" id="test4" />
+                    <label for="test4" class="font-bold">
+                  Gözlətməyən sərnişin</label
+                    >
+                  </p>
+                  <p class="mt-4 line-clamp-1">
+                    <input type="checkbox" id="test5" />
+                    <label for="test5" class="font-bold ">
+                      Gecikməyən Sürücü</label
+                    >
+                  </p>
+                </div>
+                <div>
+                  <p class="mt-4 line-clamp-1">
+                    <input type="checkbox" id="test6" />
+                    <label for="test6" class="font-bold">Maşında yemək yeyilməsin</label>
+                  </p>
+                  <p class="mt-4 line-clamp-1">
+                    <input type="checkbox" id="test7" />
+                    <label for="test7" class="font-bold">Sürücüyə etibar</label>
+                  </p>
+                  <p class="mt-4 line-clamp-1">
+                    <input type="checkbox" id="test8" />
+                    <label for="test8" class="font-bold text-[14px]">Sürücü göndərən şirkətə etibar</label>
+                  </p>
+                  <p class="mt-4 line-clamp-1">
+                    <input type="checkbox" id="test9" />
+                    <label for="test9" class="font-bold">Sürücü göndərən şirkətlə əlaqə</label>
+                  </p>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="flex justify-center mt-8">
+              <button class="button-86" role="button">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section id="select-content" class="hidden">
+      <div
+        class="max-w-[75%] mx-auto grid grid-cols-2 mb-8 gap-8 mt-4 max-md:flex max-md:flex-col-reverse max-md:relative max-md:max-w-[90%] max-lg:max-w-[90%] max-xl:max-w-[95%] max-2xl:max-w-[95%]"
+      >
+        <div class="col-span-1 mt-[2rem]">
+          <p class="font-bold text-[32px] leading-snug max-md:text-[24px]">
+            Sürücülürlə və Sərnişinlər - Erkən qeydiyyatdan keçin, bonus və endirimlərdən yararlanın.
+          </p>
+          <p class="text-[27px] font-bold mt-[0.7rem] max-md:text-[18px]">
+            Etibarlı, sərfəli və rahat
+          </p>
+          <div>
+            <img class="w-full h-full" src="assets/img/left.gif" alt="" />
+          </div>
+        </div>
+        <div class="col-span-1">
+          <form >
+            <div class="flex flex-col z-50 relative">
+              <label for="" class="gap-8"
+                ><i class="fa-solid fa-user-tie pr-[0.5rem]"></i>
+                <span class="font-bold">Ad , Soyad</span>
+              </label>
+              <input
+                required
+                placeholder="Ad , Soyad"
+                class="outline-0 border-b-4 bg-[#fff9f2] border-[#fae4ca] pt-4 focus:placeholder:text-gray-300"
+                type="text"
+              />
+            </div>
+          
+            <div class="flex flex-col mt-8">
+              <label for="" class="gap-8"
+                ><i class="fa-solid fa-phone pr-[0.5rem]"></i>
+                <span class="font-bold">Nömrə</span>
+              </label>
+              <input
+                required
+                placeholder="Nömrə"
+                class="outline-0 border-b-4 bg-[#fff9f2] border-[#fae4ca] pt-4 focus:placeholder:text-gray-300"
+                type="text"
+              />
+            </div>
+            <div class="flex flex-col mt-8">
+              <label for="" class="gap-8"
+                ><i class="fa-solid fa-envelope pr-[0.5rem]"></i>
+                <span class="font-bold">E-mail</span>
+              </label>
+              <input
+                required
+                placeholder="E-mail"
+                class="outline-0 border-b-4 bg-[#fff9f2] border-[#fae4ca] pt-4 focus:placeholder:text-gray-300"
+                type="email"
+              />
+            </div>
+            <div class="flex flex-col mt-8">
+              <label for="" class="gap-8"
+                ><i class="fa-solid fa-paper-plane pr-[0.5rem]"></i>
+                <span class="font-bold">İstəklərim</span>
+              </label>
+              <input
+                required
+                placeholder="İstəklərim"
+                class="outline-0 border-b-4 bg-[#fff9f2] border-[#fae4ca] pt-4 focus:placeholder:text-gray-300"
+                type="text"
+              />
+            </div>
+
+            <div class="mt-8">
+              <label for="" class="gap-8"
+                ><i class="fa-solid fa-user-tie pr-[0.5rem]"></i>
+                <span class="font-bold">Xidmətlər</span>
+              </label>
+              <div class="flex justify-between max-md:flex-col">
+                <div>
+                  <p class="mt-4 line-clamp-1">
+                    <input type="checkbox" id="test10" />
+                    <label for="test1" class="font-bold">Kart söhbəti olmasın</label>
+                  </p>
+                  <p class="mt-4 line-clamp-1">
+                    <input type="checkbox" id="test11" />
+                    <label for="test11" class="font-bold">
+                      Təmiz taksi</label
+                    >
+                  </p>
+                  <p class="mt-4 line-clamp-1">
+                    <input type="checkbox" id="test12" />
+                    <label for="test12" class="font-bold">Problemsiz sürücü</label>
+                  </p>
+                  <p class="mt-4 line-clamp-1">
+                    <input type="checkbox" id="test13" />
+                    <label for="test13" class="font-bold">
+                  Gözlətməyən sərnişin</label
+                    >
+                  </p>
+                  <p class="mt-4 line-clamp-1">
+                    <input type="checkbox" id="test14" />
+                    <label for="test14" class="font-bold ">
+                      Gecikməyən Sürücü</label
+                    >
+                  </p>
+                </div>
+                <div>
+                  <p class="mt-4 line-clamp-1">
+                    <input type="checkbox" id="test15" />
+                    <label for="test15" class="font-bold">Maşında yemək yeyilməsin</label>
+                  </p>
+                  <p class="mt-4 line-clamp-1">
+                    <input type="checkbox" id="test16" />
+                    <label for="test16" class="font-bold">Sürücüyə etibar</label>
+                  </p>
+                  <p class="mt-4 line-clamp-1">
+                    <input type="checkbox" id="test17" />
+                    <label for="test17" class="font-bold text-[14px]">Sürücü göndərən şirkətə etibar</label>
+                  </p>
+                  <p class="mt-4 line-clamp-1">
+                    <input type="checkbox" id="test18" />
+                    <label for="test18" class="font-bold">Sürücü göndərən şirkətlə əlaqə</label>
+                  </p>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="flex justify-center mt-8">
+              <button class="button-86" role="button">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <script src="tabs.js"></script>
   </body>
 </html>
